@@ -19,3 +19,26 @@ window.onscroll = function () {
 button.addEventListener('click', function () {
     document.documentElement.scrollTop = 0;
 })
+
+//active links on page scroll code
+const sections = document.querySelectorAll('section');
+const navLinks = document.querySelectorAll('.nav-link');
+
+let currentSection = 'banner';
+
+window.addEventListener('scroll', () => {
+    sections.forEach(sections => {
+        if (window.scrollY >= sections.offsetTop) {
+            currentSection = sections.id;
+        }
+    })
+
+    navLinks.forEach(navLinks => {
+        if (navLinks.href.includes(currentSection)) {
+            navLinks.classList.add('active');
+        }
+        else {
+            navLinks.classList.remove('active');
+        }
+    })
+})
