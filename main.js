@@ -28,17 +28,15 @@ let currentSection = 'banner';
 
 window.addEventListener('scroll', () => {
     sections.forEach(sections => {
-        if (window.scrollY >= sections.offsetTop) {
+        if (window.scrollY >= (sections.offsetTop - 200)) {
             currentSection = sections.id;
         }
     })
 
     navLinks.forEach(navLinks => {
         if (navLinks.href.includes(currentSection)) {
+            document.querySelector('.active').classList.remove('active');
             navLinks.classList.add('active');
-        }
-        else {
-            navLinks.classList.remove('active');
         }
     })
 })
