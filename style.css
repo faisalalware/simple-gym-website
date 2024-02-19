@@ -230,7 +230,6 @@ span {
 }
 
 .program-content {
-    /* margin-top: -20px; */
     margin-left: 20px;
 }
 
@@ -238,10 +237,10 @@ span {
     color: #001351;
 }
 
-.program-content a {
+/* .program-content a {
     text-decoration: none;
     color: #ed563b;
-}
+} */
 
 /* Trainers Section */
 .trainer {
