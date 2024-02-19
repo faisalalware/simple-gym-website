@@ -109,7 +109,7 @@ span {
 
 /* banner css */
 #banner {
-    background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background.jpg) 0% 0% padding-box;
+    background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background-1.jpg) 0% 0% padding-box;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -119,42 +119,42 @@ span {
 @keyframes change{
     0%
     {
-        background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background.jpg) 0% 0% padding-box;
+        background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background-1.jpg) 0% 0% padding-box;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
     20%
     {
-        background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background2.jpg) 0% 0% padding-box;
+        background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background-2.jpg) 0% 0% padding-box;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
     40%
     {
-        background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background3.jpg) 0% 0% padding-box;
+        background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background-3.jpg) 0% 0% padding-box;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
     60%
     {
-        background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background4.jpg) 0% 0% padding-box;
+        background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background-4.jpg) 0% 0% padding-box;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
     80%
     {
-        background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background5.jpg) 0% 0% padding-box;
+        background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background-5.jpg) 0% 0% padding-box;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
     100%
     {
-        background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background6.jpg) 0% 0% padding-box;
+        background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background-6.jpg) 0% 0% padding-box;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
