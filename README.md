@@ -11,7 +11,7 @@
 
 ## Introduction
 
-This is a simple single page website built with HTML, CSS & JavaScript. This website is based on a gym which represents information about the gym in 5 sections such, home, about, programs, trainers & contact.
+This is a simple single page responsive website built with HTML, CSS & JavaScript. This website is based on a gym which represents the info about the gym which is divided in 5 sections namely, home, about, programs, trainers & contact.
 
 ### Screenshot
 
@@ -33,7 +33,7 @@ This is a simple single page website built with HTML, CSS & JavaScript. This web
 
 ### Resources
 
-- [W3Schools](https://www.w3schools.com/) - I used this website for learning purporse and as a resource for my projects because, it contains detailed concepts of programming languages which helps me to refresh my tech concepts and gets updated as new technology arrives.
+- [W3Schools](https://www.w3schools.com/) - I used this website for learning purpose and as a resource for my projects because, it contains detailed concepts of programming languages which helps me to refresh my tech concepts and gets updated as new technology arrives.
 
 - [Pexels](https://www.pexels.com/) - I used this website to use high quality images in my projects.
 
