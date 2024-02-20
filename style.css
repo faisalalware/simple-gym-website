@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+:root{
+    --primary-theme-color:#001351;
+    --secondary-theme-color:#ed563b;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #212529;
+    --placeholder-color: #00000090;
+}
+
 /* global css */
 * {
     margin: 0;
@@ -13,16 +21,16 @@ body {
 }
 
 span {
-    color: #ed563b;
+    color: var(--secondary-theme-color);
 }
 
 .active {
-    color: #ed563b !important;
+    color: var(--secondary-theme-color) !important;
 }
 
 .button {
-    color: #fff !important;
-    background-color: #ed563b;
+    color: var(--primary-text-color) !important;
+    background-color: var(--secondary-theme-color);
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
@@ -36,7 +44,7 @@ span {
 }
 
 .button:hover {
-    background-color: #001351 !important;
+    background-color: var(--primary-theme-color) !important;
 }
 
 #about,
@@ -55,16 +63,16 @@ span {
     text-transform: uppercase;
     font-size: 40px;
     font-weight: bold;
-    color: #001351;
+    color: var(--primary-theme-color);
 }
 
 .dark h3{
-    color: #ffffff !important;
+    color: var(--primary-text-color) !important;
 }
 
 /* header css */
 .navbar {
-    background: #fff;
+    background: var(--primary-text-color);
     padding: 15px 0;
     box-shadow: 0px 10px 30px #A8A8A829;
     margin: auto;
@@ -78,17 +86,17 @@ span {
 .navbar-brand {
     font-size: 23px;
     font-weight: 600;
-    color: #001351;
+    color: var(--primary-theme-color);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 .navbar-brand:hover{
-    color: #001351;
+    color: var(--primary-theme-color);
 }
 
 .navbar-brand:visited{
-    color: #001351;
+    color: var(--primary-theme-color);
 }
 
 .navbar-nav li a {
@@ -96,14 +104,14 @@ span {
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #001351;
+    color: var(--primary-theme-color);
     letter-spacing: 1px;
     transition: all 0.3s;
     margin: 0 10px;
 }
 
 .navbar-nav li a:hover {
-    color: #ed563b;
+    color: var(--secondary-theme-color);
     background: none;
 }
 
@@ -176,14 +184,14 @@ span {
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .banner-content h1 {
     text-transform: uppercase;
     font-size: 70px;
     font-weight: bold;
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .banner-content a {
@@ -195,13 +203,14 @@ span {
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #001351;
+    color: var(--primary-theme-color);
 }
 
 .about-content p {
     font-size: 20px;
     padding: 25px 0;
     text-align: justify;
+    color: var(--secondary-text-color);
 }
 
 .about-image img{
@@ -210,11 +219,11 @@ span {
 
 /* programs css */
 #programs{
-    background-color: #001351;
+    background-color: var(--primary-theme-color);
 }
 
 .program {
-    background-color: #ffffff;
+    background-color: var(--primary-text-color);
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -222,7 +231,7 @@ span {
     align-items: center;
     margin-bottom: 30px;
     padding: 20px;
-    box-shadow: 1px 8px 54px #00000012;
+    /* box-shadow: 1px 8px 54px #00000012; */
     transition: transform 0.2s ease-in-out;
 }
 
@@ -235,7 +244,11 @@ span {
 }
 
 .program-content h3 {
-    color: #001351;
+    color: var(--primary-theme-color);
+}
+
+.program-content p{
+    color: var(--secondary-text-color);
 }
 
 /* trainers css */
@@ -245,7 +258,7 @@ span {
     margin-bottom: 30px;
     box-shadow: 1px 8px 54px #00000012;
     transition: transform 0.2s ease-in-out;
-    background-color: #001351;
+    background-color: var(--primary-theme-color);
 }
 
 .trainer:hover{
@@ -258,7 +271,7 @@ span {
 }
 
 .trainer-image img {
-    border: 5px solid #ed563b;
+    border: 5px solid var(--secondary-theme-color);
     border-radius: 50%;
 }
 
@@ -270,19 +283,19 @@ span {
 .trainer-content h3 {
     font-weight: 600;
     font-size: 30px;
-    color: #ffffff;
+    color: var(--primary-text-color);
 }
 
 .trainer-content p {
     margin-top: 20px;
     font-weight: 500;
     font-size: 20px;
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 /* contact css */
 #contact{
-    background-color: #001351;
+    background-color: var(--primary-theme-color);
 }
 
 .contact-details{
@@ -296,19 +309,19 @@ span {
     margin-bottom: 40px;
     padding: 5px 15px;
     border-radius: 10px;
-    box-shadow: 1px 8px 54px #00000012;
-    background-color: #ffffff;
+    /* box-shadow: 1px 8px 54px #00000012; */
+    background-color: var(--primary-text-color);
 }
 
 .contact-image{
     border-radius: 50%;
-    background-color: #ed563b;
+    background-color: var(--secondary-theme-color);
     padding: 20px;
 }
 
 .contact-image i{
     font-size: 30px;
-    color: #ffffff;
+    color: var(--primary-text-color);
     margin-top: 5px;    
 }
 
@@ -319,28 +332,29 @@ span {
 .contact-content h3 {
     margin-top: 10px;
     font-size: 25px;
-    color: #001351;
+    color: var(--primary-theme-color);
 }
 
 .contact-content p {
     margin-top: 20px;
     font-size: 18px;
+    color: var(--secondary-text-color);
 }
 
 .contact-form {
     border-radius: 10px;
-    box-shadow: 1px 8px 54px #00000012;
+    /* box-shadow: 1px 8px 54px #00000012; */
     padding: 40px;
     max-width: 500px;
     margin: auto;
-    background-color: #ffffff;
+    background-color: var(--primary-text-color);
 }
 
 .contact-form h1 {
     margin-top: -15px;
     font-size: 30px;
     font-weight: 600;
-    color: #001351;
+    color: var(--primary-theme-color);
 }
 
 .form-group {
@@ -357,7 +371,7 @@ span {
 }
 
 .contact-form form input::placeholder {
-    color: #00000090;
+    color: var(--placeholder-color);
 }
 
 .contact-form form input:focus {
@@ -375,7 +389,7 @@ span {
 }
 
 .contact-form form textarea::placeholder {
-    color: #00000090;
+    color: var(--placeholder-color);
 }
 
 .contact-form form button {
@@ -385,11 +399,11 @@ span {
 
 /* footer css */
 footer {
-    background: #ffffff;
+    background: var(--primary-text-color);
 }
 
 .footer-content p {
-    color: #001351;
+    color: var(--primary-theme-color);
     font-size: 18px;
     font-weight: 600;
     margin-top: 20px;
@@ -409,8 +423,8 @@ footer {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #ed563b;
-    color: white;
+    background-color: var(--secondary-theme-color);
+    color: var(--primary-text-color);
     cursor: pointer;
     width: 50px;
     height: 50px;
@@ -419,10 +433,10 @@ footer {
 }
 
 #topButton:hover {
-    background-color: #001351;
+    background-color: var(--primary-theme-color);
 }
 
-/* media queries */
+/* media query */
 @media only screen and (max-width: 992px) {
 
     #about,
