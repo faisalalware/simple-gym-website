@@ -33,11 +33,11 @@ This is a simple single page website built with HTML, CSS & JavaScript. This web
 
 ### Resources
 
-- [W3Schools](https://www.w3schools.com/) - I used this website as a resource because, it has detailed concepts of various technologies.
+- [W3Schools](https://www.w3schools.com/) - I used this website for learning purporse and as a resource for my projects because, it contains detailed concepts of programming languages which helps me to refresh my tech concepts and gets updated as new technology arrives.
 
-- [Pexels](https://www.pexels.com/) - I used this website to use high quality images in my project.
+- [Pexels](https://www.pexels.com/) - I used this website to use high quality images in my projects.
 
 ## Author
 
 - LinkedIn - [Faisal Alware](https://www.linkedin.com/in/faisal-alware-048763b8/)
-- Github - [@faisalalware](https://github.com/faisalalware)
+- Github - [faisalalware](https://github.com/faisalalware)
