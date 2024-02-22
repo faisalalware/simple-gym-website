@@ -56,7 +56,7 @@ span {
 
 .section-title {
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .section-title h3 {
@@ -244,10 +244,12 @@ span {
 }
 
 .program-content h3 {
+    font-size: 25px;
     color: var(--primary-theme-color);
 }
 
 .program-content p{
+    font-size: 17px;
     color: var(--secondary-text-color);
 }
 
@@ -268,6 +270,7 @@ span {
 .trainer-image {
     margin: auto;
     width: 200px;
+    margin-bottom: 50px;
 }
 
 .trainer-image img {
@@ -276,7 +279,7 @@ span {
 }
 
 .trainer-content {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     text-align: center;
 }
 
@@ -284,10 +287,11 @@ span {
     font-weight: 600;
     font-size: 30px;
     color: var(--primary-text-color);
+    margin-bottom: 20px;
 }
 
 .trainer-content p {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-weight: 500;
     font-size: 20px;
     color: var(--primary-text-color);
@@ -331,12 +335,13 @@ span {
 
 .contact-content h3 {
     margin-top: 10px;
+    margin-bottom: 20px;
     font-size: 25px;
     color: var(--primary-theme-color);
 }
 
 .contact-content p {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-size: 18px;
     color: var(--secondary-text-color);
 }
@@ -443,10 +448,98 @@ footer {
     #programs,
     #trainers,
     #contact {
-        padding: 50px 0;
+        padding: 40px 0;
+    }
+
+    .section-title {
+        margin-bottom: 35px;
+    }
+    
+    .section-title h3 {
+        font-size: 30px;
+    }
+
+    .banner-content h1 {
+        font-size: 50px;
+    }
+
+    .about-content h1 {
+        font-size: 25px;
+    }
+
+    .about-content p {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+
+    .program-content h3 {
+        font-size: 22px;
+    }
+    
+    .program-content p{
+        font-size: 16px;
+    }
+
+    .trainer-image {
+        margin-bottom: 25px;
+    }
+
+    .trainer-content h3 {
+        font-size: 25px;
+    }
+    
+    .trainer-content p {
+        font-size: 18px;
     }
 
     .contact-details{
         margin-top: 0;
     }
+
+    .contact {
+        margin-bottom: 30px;
+        padding: 0 15px;
+    }
+    
+    .contact-image{
+        padding: 18px;
+    }
+    
+    .contact-image i{
+        font-size: 27px;    
+    }
+    
+    .contact-content h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .contact-content p {
+        font-size: 17px;
+    }
+
+    .contact-form h1 {
+        font-size: 25px;
+    }
+
+    .form-group {
+        padding: 10px 0;
+    }  
+    
+    .contact-form form input {
+        font-size: 18px;
+        padding: 25px 0px;
+    }
+
+    .contact-form form textarea {
+        font-size: 18px;
+        padding: 25px 5px;
+        margin-bottom: 20px;
+    }
+
+    .contact-form form button {
+        padding: 15px 40px;
+    }
+    
 }
