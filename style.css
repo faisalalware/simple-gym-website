@@ -121,7 +121,7 @@ span {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    animation: change 10s infinite;
+    animation: change 100s infinite ease-out;
 }
 
 @keyframes change{
