@@ -6,6 +6,8 @@
     --primary-text-color: #ffffff;
     --secondary-text-color: #212529;
     --placeholder-color: #00000090;
+    --shadow-color: #00000012;
+    --border-color: #CCCCCC;
 }
 
 /* global css */
@@ -125,7 +127,7 @@ span {
 }
 
 @keyframes change{
-    0%
+    10%
     {
         background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background-1.jpg) 0% 0% padding-box;
         background-repeat: no-repeat;
@@ -219,7 +221,11 @@ span {
 
 /* programs css */
 #programs{
-    background-color: var(--primary-theme-color);
+    background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background-6.jpg) 0% 0% padding-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-color: var(--primary-theme-color); */
 }
 
 .program {
@@ -258,7 +264,7 @@ span {
     border-radius: 10px;
     padding: 20px 0;
     margin-bottom: 30px;
-    box-shadow: 1px 8px 54px #00000012;
+    box-shadow: 1px 8px 54px var(--shadow-color);
     transition: transform 0.2s ease-in-out;
     background-color: var(--primary-theme-color);
 }
@@ -297,7 +303,11 @@ span {
 
 /* contact css */
 #contact{
-    background-color: var(--primary-theme-color);
+    background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background-5.jpg) 0% 0% padding-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-color: var(--primary-theme-color); */
 }
 
 .contact-details{
@@ -367,7 +377,7 @@ span {
     border-radius: 0;
     border: none;
     box-shadow: none;
-    border-bottom: 1px solid #CCCCCC;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .contact-form form input::placeholder {
@@ -382,7 +392,7 @@ span {
     font-size: 20px;
     padding: 30px 20px;
     border-radius: 0;
-    border: 1px solid #CCCCCC;
+    border: 1px solid var(--border-color);
     border-radius: 4px;
     box-shadow: none;
     margin-bottom: 20px;
