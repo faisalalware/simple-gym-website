@@ -4,7 +4,7 @@ const navLinks = document.querySelectorAll('.nav-link');
 
 let currentSection = 'banner';
 
-window.addEventListener('scroll', () => {
+window.addEventListener('scroll', function () {
     sections.forEach(sections => {
         if (window.scrollY >= (sections.offsetTop - 200)) {
             currentSection = sections.id;
@@ -21,15 +21,17 @@ window.addEventListener('scroll', () => {
 
 
 //handle banner text change
-const text = document.querySelector('.banner-span-text');
+const text = document.querySelector('.banner-highlight');
 
-const textLoad = () => {
+function textLoad() {
     setTimeout(() => {
         text.textContent = "gym";
     }, 0);
+
     setTimeout(() => {
         text.textContent = "programs";
     }, 4000);
+
     setTimeout(() => {
         text.textContent = "trainers";
     }, 8000);
@@ -48,9 +50,9 @@ form.addEventListener('submit', function (e) {
 
 
 //handle back to top button
-var button = document.getElementById("topButton");
+var button = document.getElementById("top-button");
 
-window.addEventListener('scroll', () => {
+window.addEventListener('scroll', function () {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         button.style.display = "block";
     } else {

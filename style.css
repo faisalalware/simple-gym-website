@@ -81,16 +81,13 @@ span {
     text-align: center;
 }
 
-.navbar img{
-    width: 50px;
-}
-
 .navbar-brand {
     font-size: 23px;
     font-weight: 600;
     color: var(--primary-theme-color);
     text-transform: uppercase;
     letter-spacing: 1px;
+    margin-top: 5px;
 }
 
 .navbar-brand:hover{
@@ -101,7 +98,11 @@ span {
     color: var(--primary-theme-color);
 }
 
-.navbar-nav li a {
+.navbar-brand img{
+    width: 50px;
+}
+
+.nav-link {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
@@ -112,7 +113,7 @@ span {
     margin: 0 10px;
 }
 
-.navbar-nav li a:hover {
+.nav-link:hover {
     color: var(--secondary-theme-color);
     background: none;
 }
@@ -123,7 +124,7 @@ span {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    animation: change 100s infinite ease-out;
+    animation: change 100s infinite;
 }
 
 @keyframes change{
@@ -200,7 +201,7 @@ span {
     margin-top: 25px;
 }
         
-/* About Section */
+/* about section css */
 .about-content h1 {
     font-size: 30px;
     font-weight: bold;
@@ -219,13 +220,12 @@ span {
     border-radius: 20px;
 }
 
-/* programs css */
+/* programs section css */
 #programs{
     background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background-6.jpg) 0% 0% padding-box;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* background-color: var(--primary-theme-color); */
 }
 
 .program {
@@ -237,7 +237,6 @@ span {
     align-items: center;
     margin-bottom: 30px;
     padding: 20px;
-    /* box-shadow: 1px 8px 54px #00000012; */
     transition: transform 0.2s ease-in-out;
 }
 
@@ -259,7 +258,7 @@ span {
     color: var(--secondary-text-color);
 }
 
-/* trainers css */
+/* trainers section css */
 .trainer {
     border-radius: 10px;
     padding: 20px 0;
@@ -276,7 +275,7 @@ span {
 .trainer-image {
     margin: auto;
     width: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 
 .trainer-image img {
@@ -301,13 +300,12 @@ span {
     color: var(--primary-text-color);
 }
 
-/* contact css */
+/* contact section css */
 #contact{
-    background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background-5.jpg) 0% 0% padding-box;
+    background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background-4.jpg) 0% 0% padding-box;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* background-color: var(--primary-theme-color); */
 }
 
 .contact-details{
@@ -321,7 +319,6 @@ span {
     margin-bottom: 40px;
     padding: 5px 15px;
     border-radius: 10px;
-    /* box-shadow: 1px 8px 54px #00000012; */
     background-color: var(--primary-text-color);
 }
 
@@ -353,7 +350,6 @@ span {
 
 .contact-form {
     border-radius: 10px;
-    /* box-shadow: 1px 8px 54px #00000012; */
     padding: 40px;
     max-width: 500px;
     margin: auto;
@@ -373,7 +369,7 @@ span {
 
 .contact-form form input {
     font-size: 20px;
-    padding: 30px 0px;
+    padding: 25px 5px;
     border-radius: 0;
     border: none;
     box-shadow: none;
@@ -390,7 +386,7 @@ span {
 
 .contact-form form textarea {
     font-size: 20px;
-    padding: 30px 20px;
+    padding: 25px 10px;
     border-radius: 0;
     border: 1px solid var(--border-color);
     border-radius: 4px;
@@ -424,7 +420,7 @@ footer {
 }
 
 /* back to top button css */
-#topButton {
+#top-button {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -442,7 +438,7 @@ footer {
     transition: background-color 0.5s;
 }
 
-#topButton:hover {
+#top-button:hover {
     background-color: var(--primary-theme-color);
 }
 
@@ -462,6 +458,14 @@ footer {
     
     .section-title h3 {
         font-size: 30px;
+    }
+
+    .navbar-brand img {
+        width: 40px;
+    }
+    
+    .navbar-brand {
+        font-size: 18px;
     }
 
     .banner-content h1 {
@@ -540,7 +544,6 @@ footer {
     .contact-form form textarea {
         font-size: 18px;
         padding: 25px 5px;
-        margin-bottom: 20px;
     }
 
     .contact-form form button {
