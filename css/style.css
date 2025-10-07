@@ -118,6 +118,23 @@ span {
     background: none;
 }
 
+.nav-link::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: var(--secondary-theme-color);
+    display: block;
+    transition: .5s ease-in-out;
+}
+
+.nav-link:hover::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: var(--secondary-theme-color);
+    display: block;
+}
+
 /* banner css */
 #banner {
     background: linear-gradient(to right, #001351 0%, #16275AD0 38%, #2E3C639D 81%, #5C667638 100%), url(../images/background-1.jpg) 0% 0% padding-box;
@@ -468,6 +485,10 @@ footer {
         font-size: 18px;
     }
 
+    .nav-link:hover::after{
+        width: 0%;
+    }
+
     .banner-content h1 {
         font-size: 50px;
     }
@@ -549,5 +570,5 @@ footer {
     .contact-form form button {
         padding: 15px 40px;
     }
-    
+
 }
